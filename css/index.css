@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Home Section Styles */
+#home {
+  background-color: #ffcc00;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#home h2 {
+  color: #333;
+}
+
+#home p {
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Other Section Styles */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4caf50;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+/* Vehicle Card Styling */
+.vehicle-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vehicle-card {
+  width: calc(33.33% - 20px); /* Adjust width according to your layout */
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.vehicle-card img {
+  width: 100%;
+  height: auto;
+}
+
+.vehicle-card h3 {
+  margin: 15px 0;
+}
+
+.vehicle-card p {
+  margin-bottom: 20px;
+}
+
+.vehicle-card .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.vehicle-card .btn:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+  .vehicle-card {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .vehicle-card {
+    width: calc(100% - 20px); /* Adjust width for even smaller screens */
+  }
+}
+/* Service Card Styling */
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: calc(33.33% - 20px); /* Adjust width according to your layout */
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+}
+
+.service-card h3 {
+  margin: 15px 0;
+}
+
+.service-card p {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-card {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-card {
+    width: calc(100% - 20px); /* Adjust width for even smaller screens */
+  }
+}
+/* About Section Styling */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-image {
+  width: 40%;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+}
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact-info p:first-child {
+  margin-top: 0;
+}
+
+.contact-info p:last-child {
+  margin-bottom: 0;
+}
+.home-image {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  display: block;
+  margin: 0 auto;
+}
